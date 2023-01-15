@@ -27,7 +27,7 @@ public class Main {
 
     }
 
-    public static boolean isInsideQueue(Queue<Double> lst1, Double num) {
+    public static boolean isInsideQueue(Queue<Double> lst1, double num) {
         boolean flag = false;
         Queue<Double> secQ = new Queue<>();
         while (!lst1.isEmpty()) {
